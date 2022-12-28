@@ -5,27 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/chamada.css">
 </head>
 <body>
-   <header>
-    <img src="./img/logo-apeperia.svg" alt="Logo da Apeperia">
-        <nav>
+   <header class="cabecalho">
+    <img src="./img/logo-apeperia.svg" alt="Logo da Apeperia" 
+    class="cabecalho__logo">
+        <nav class="cabecalho__navegacao">
             <ul>
-                <li><a href="#"></a>Sobre</li>
-                <li><a href="#"></a>Planos</li>
-                <li><a href="#"></a>Blog</li>
-                <li><a href="#"></a>Destques</li>
-                <li><a href="#"></a>Institucional</li>
-                <li><a href="#"></a>Contato</li>
+                <li class="cabecalho__link"><a href="#"></a>Sobre</li>
+                <li class="cabecalho__link"><a href="#"></a>Planos</li>
+                <li class="cabecalho__link"><a href="#"></a>Blog</li>
+                <li class="cabecalho__link"><a href="#"></a>Destques</li>
+                <li class="cabecalho__link"><a href="#"></a>Institucional</li>
+                <li class="cabecalho__link"><a href="#"></a>Contato</li>
             </ul>
         </nav>
     </img>
    </header>
-
-    <main>
+    <main class="chamada">
         <section>
-            <h1>APLICATIVOS NA MEDIDA</h1>
-            <a href="#">Conheça os Planos</a>
+            <h1 class="chamada__titulo">APLICATIVOS NA MEDIDA</h1>
+            <p class="chamada__texto">A Apeperia tem um jeito inovador de comparar e 
+                montar aplciativos para pequenas e médias empresas.
+            </p>
+            <a class="chamada__botao" href="#">Conheça os Planos</a>
         </section>
     </main>   
 </body>
