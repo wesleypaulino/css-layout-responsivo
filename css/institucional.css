@@ -53,13 +53,35 @@
     width: 100vw;
 }
 
-/* Tablet CSS Tricks */
-@media screen and (min-width: 768px){
-       
+@media screen and (min-width: 768) {
     .institucional__contato-email {
         display: inline-block;
     }
+
     .institucional__video {
-        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/* Desktop  */
+@media screen and (min-width: 1024px){
+       
+    .institucional__conteudo {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        text-align: left;
+    }
+
+    .institucional__video {
+        align-self: flex-start;
+
+        width: 375px;
+    }
+
+    .institucional__contato-email {
+        display: block;
     }
 }

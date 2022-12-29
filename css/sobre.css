@@ -25,10 +25,6 @@
     font-weight: 700;
 }
 
-.sobre__texto--divisao {
-
-}
-
 .sobre__plataformas {
     display: flex;
     flex-wrap: wrap;
